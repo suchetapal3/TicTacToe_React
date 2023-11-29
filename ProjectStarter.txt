@@ -66,3 +66,17 @@ npm run dev
 
 To create project for deployment:
 npm run build
+
+Initialize git: 
+git init
+
+Add files to git staging area:
+git add .
+
+Commit to git:
+git commit -m "First Commit"
+
+Git Push:
+git remote add origin https://github.com/suchetapal3/TicTacToe_React.git
+git remote -v
+git push origin master
